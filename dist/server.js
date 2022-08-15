@@ -16,7 +16,7 @@ class ServerBootstrap {
         this.app.use((0, cors_1.default)());
         this.app.get("/api/hola", (req, res) => {
             res.status(200).json({
-                message: "hola mundo jesus "
+                message: "hola mundo jesus  ffff"
             });
         });
         this.listen();
